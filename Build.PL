@@ -12,7 +12,7 @@ use Module::Build;
 my $builder = Module::Build->new(
 				 module_name         => 'Net-MemcacheQ',
 				 dist_author         => 'Roger M Pettett <rmp@psyphi.net>',
-				 dist_version        => '1.01',
+				 dist_version        => '1.02',
 				 dist_abstract       => q[Basic socket abstraction for memcacheq],
 				 license             => 'perl',
 				 requires            => {
@@ -29,7 +29,9 @@ my $builder = Module::Build->new(
 							 'Test::Distribution'      => '2.00',
 							 'Test::More'              => '0.8',
 							 'Test::Perl::Critic'      => '1.01',
-							 'IO::Scalar'              => '2.110',
+							 'Test::Trap'              => '0.2.0',
+							 'Time::HiRes'             => '1.9719',
+							 'File::Path'              => '2.07_03',
 							},
 				 build_recommends    => {
 							},

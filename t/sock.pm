@@ -5,7 +5,7 @@ use Carp;
 use English qw(-no_match_vars);
 use base qw(Exporter);
 use File::Path qw(mkpath rmtree);
-use Time::Hires qw(sleep);
+use Time::HiRes qw(sleep);
 use IO::Socket::INET;
 
 our @EXPORT_OK    = qw(setup teardown);

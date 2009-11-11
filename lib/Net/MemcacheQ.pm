@@ -18,7 +18,7 @@ Readonly::Scalar our $DEFAULT_PORT    => 22_201;
 
 our $DEBUG      = 0;
 our $DEBUG_INFO = 1;
-our $VERSION    = '1.01';
+our $VERSION    = '1.02';
 
 sub new {
   my ($class, $ref) = @_;
