@@ -1,0 +1,37 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 07daffd724ed1eeea88098f60998ba70a68dde1a Build.PL
+SHA1 c30a60a8f2440d76882b8e779e7333478abd968b Changes
+SHA1 181818e08d3758582768afb7ebfb148316c2f89c MANIFEST
+SHA1 f5fd4d2f3d3b2a10b85899a8e909f5979ef7008c META.yml
+SHA1 77e450d85db6d9d5a4cb9dbb54901a8f3c9324f3 Makefile.PL
+SHA1 bdc515bbcd618ca0130591ebc0243e10846d174b Net-MemcacheQ-1.tar.gz
+SHA1 8f03222360ff7a9b53d69fa31f7bd20077c01661 README
+SHA1 b350f9f7382e2d49a11dd2059dd38e3609d86300 lib/Net/MemcacheQ.pm
+SHA1 2c398e8c9650bb4c63d068f94d8d7e239931ce75 t/00-critic.t
+SHA1 81a495a7014487c9d2b0049344d00058abe71739 t/00-distribution.t
+SHA1 1f03cd78697676d69f3e91c196f29f1e95ad9413 t/00-pod.t
+SHA1 70e89690ecdefd93ab6d565d871ad0b74149e2d4 t/00-podcoverage.t
+SHA1 19bbf08c9c678f6646f0993aad04da5f395546e8 t/10-memcacheq.t
+SHA1 3817433cf1cc94b322ace96deabd0d4817728704 t/sock.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iEYEARECAAYFAkr6sLYACgkQj1KoW1bRfNgYHACgu7t6U6UJEfmmubumFxFUF51f
+Fu4AoLoTlxWbso5rGvw1EfdOsj+BFALb
+=4AoP
+-----END PGP SIGNATURE-----

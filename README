@@ -1,0 +1,7 @@
+README for Net::MemcacheQ
+=========================
+
+Net::MemcacheQ is a very basic client wrapper around IO::Socket::INET
+designed to speak the MemcacheQ protocol as described at
+http://memcachedb.org/memcacheq/
+
