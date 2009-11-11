@@ -1,7 +1,8 @@
 Changes
 MANIFEST
-Net-MemcacheQ-1.tar.gz
 README
+examples/pusher
+examples/shifter
 lib/Net/MemcacheQ.pm
 t/00-critic.t
 t/00-distribution.t
