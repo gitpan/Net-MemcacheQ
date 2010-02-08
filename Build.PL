@@ -29,7 +29,7 @@ my $builder = Module::Build->new(
 							 'Test::Distribution'      => '2.00',
 							 'Test::More'              => '0.8',
 							 'Test::Perl::Critic'      => '1.01',
-							 'Test::Trap'              => '0.2.0',
+							 'Test::Trap'              => '0',
 							 'Time::HiRes'             => '1.9719',
 							 'File::Path'              => '2.07_03',
 							},
